@@ -27,4 +27,4 @@ for row in result:
   print(elem, end=" ")
 print()
 
-pragati
+pragati pragati pragati
