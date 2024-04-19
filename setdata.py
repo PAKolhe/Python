@@ -42,3 +42,30 @@ print("Intersection:", set1.intersection(set2))
 # Difference
 print("Difference (set1 - set2):", set1.difference(set2))
 print("Difference (set2 - set1):", set2.difference(set1))
+
+
+"""# Creating a set
+my_set = {1, 2, 3, 4, 5}
+print("Initial set:", my_set)
+# Adding elements to a set
+my_set.add(6)
+print("After adding 6:", my_set)
+# Removing elements from a set
+my_set.remove(3)
+print("After removing 3:", my_set)
+# Iterating over elements of a set
+print("Iterating over set elements:")
+for element in my_set:
+print(element)
+# Length of a set
+print("Length of the set:", len(my_set))
+# Set operations: union, intersection, difference
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+print("Union:", set1.union(set2))
+print("Intersection:", set1.intersection(set2))
+print("Difference (set1 - set2):", set1.difference(set2))
+print("Difference (set2 - set1):", set2.difference(set1))
+# Set comprehension
+set3 = {x for x in range(10) if x % 2 == 0}
+print("Set comprehension:", set3)"""

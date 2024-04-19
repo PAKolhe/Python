@@ -40,7 +40,7 @@ print("Original array:", arr)
 merge_sort(arr)
 print("Sorted array:", arr)
 
-def merge_sort(arr):
+"""def merge_sort(arr):
  if len(arr) > 1:
   mid = len(arr) // 2
 left_half = arr[:mid]
@@ -68,4 +68,4 @@ k += 1
 arr = [12, 11, 13, 5, 6, 7]
 print("Original array:", arr)
 merge_sort(arr)
-print("Sorted array:", arr)
+print("Sorted array:", arr)"""

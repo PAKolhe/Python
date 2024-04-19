@@ -27,3 +27,17 @@ result_dict = count_numbers(input_list)
 
 # Print the result dictionary
 print("Result Dictionary:", result_dict)
+
+"""def count_neg_pos(numbers):
+#Function to count the number of negative and positive numbers in a list.
+count_neg = sum(1 for num in numbers if num < 0)
+count_pos = sum(1 for num in numbers if num > 0)
+return {'N': count_neg, 'P': count_pos}
+# Read the list of integer numbers
+input_list = input("Enter the list of numbers separated by space: ").split()
+input_list = [int(x) for x in input_list]
+# Call count_neg_pos function
+result = count_neg_pos(input_list)
+# Print the result dictionary
+print("Dictionary containing count of negative and positive numbers:")
+print(result)"""

@@ -5,8 +5,8 @@ def button_clear():
  display.set("")
 def button_equal():
 try:
-result = str(eval(display.get()))
-display.set(result)
+ result = str(eval(display.get()))
+ display.set(result)
 except:
 display.set("Error")
 # Create the main window and display

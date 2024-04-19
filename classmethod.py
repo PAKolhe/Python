@@ -28,7 +28,7 @@ MyClass.class_method(MyClass)
 # Call static method
 MyClass.static_method()
 
-class MyClass:
+"""class MyClass:
  class_variable = 10
 def __init__(self, value):
  self.instance_variable = value
@@ -49,4 +49,4 @@ obj.instance_method()
 # Calling class method
 MyClass.class_method()
 # Calling static method
-MyClass.static_method()
+MyClass.static_method()"""

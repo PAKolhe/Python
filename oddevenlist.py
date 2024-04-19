@@ -8,7 +8,7 @@ def check_and_replace_numbers(lst):
         else:  # Odd number
             lst[i] = 0
 
-# Read a list of integer numbers from user input
+"""# Read a list of integer numbers from user input
 input_list = input("Enter a list of integer numbers separated by space: ").split()
 input_list = [int(num) for num in input_list]  # Convert input strings to integers
 
@@ -17,3 +17,16 @@ check_and_replace_numbers(input_list)
 
 # Print the result list
 print("Result List:", input_list)
+
+def check_replace(numbers):
+#Function to check each number in the list and replace odd numbers with 0 and even numbers with 1
+replaced_list =list(0 if num % 2 != 0 else 1 for num in numbers)
+return replaced_list
+# Read the list of integer numbers from the user
+input_list = input("Enter the List of numbers separated by space: ").split()
+input_list = [int(x) for x in input_list]
+# Call check_replace function
+result = check_replace(input_list)
+# Print the result list
+print("List after replacing odd numbers with 0 and even numbers with 1:")
+print(result)"""

@@ -7,7 +7,7 @@ def __init__(self, name):
 def sound(self):
 """
 Method to make a sound.
-"""
+"""23
 print(f"{self.name} makes a sound.")
 class Dog(Animal):
 """
